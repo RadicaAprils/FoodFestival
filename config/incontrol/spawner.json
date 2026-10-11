@@ -1,1 +1,272 @@
-[]
+[
+  {
+    "mob": "minecraft:slime",
+    "persecond": 0.10,
+    "attempts": 5,
+    "amount": {
+    "minimum": 1,
+    "maximum": 1
+    },
+    "conditions": {
+    "dimension": "minecraft:overworld",
+    "norestrictions": true,
+    "mindist": 24,
+    "maxdist": 128,
+    "minheight": 56,
+    "maxheight": 72,
+    "maxthis": 8
+    }
+  },
+  {
+    "mob": "minecraft:slime",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+    "minimum": 1,
+    "maximum": 1
+    },
+    "conditions": {
+    "dimension": "minecraft:overworld",
+    "norestrictions": true,
+    "mindist": 24,
+    "maxdist": 128,
+    "minheight": 0,
+    "maxheight": 48,
+    "maxthis": 16
+    }
+  },
+  {
+    "mob": "creatures_of_petrichor:shroomin",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+    "minimum": 1,
+    "maximum": 1
+    },
+    "conditions": {
+    "dimension": "minecraft:overworld",
+    "norestrictions": true,
+    "mindist": 24,
+    "maxdist": 128,
+    "minheight": 0,
+    "maxheight": 48,
+    "maxthis": 16
+    }
+  },
+  {
+    "mob": "minecraft:silverfish",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+    "minimum": 1,
+    "maximum": 1
+    },
+    "conditions": {
+    "dimension": "minecraft:overworld",
+    "norestrictions": true,
+    "mindist": 24,
+    "maxdist": 128,
+    "minheight": 0,
+    "maxheight": 48,
+    "maxthis": 12
+    }
+  },
+  {
+    "mob": "minecraft:spider",
+    "persecond": 0.15,
+    "attempts": 20,
+    "amount": {
+    "minimum": 1,
+    "maximum": 2
+    },
+    "conditions": {
+    "dimension": "minecraft:overworld",
+    "norestrictions": true,
+    "mindist": 24,
+    "maxdist": 128,
+    "minheight": -64,
+    "maxheight": 48,
+    "maxthis": 20
+    }
+  },
+  {
+    "mob": "minecraft:creeper",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+    "minimum": 2,
+    "maximum": 4
+    },
+    "conditions": {
+    "dimension": "minecraft:overworld",
+    "norestrictions": true,
+    "mindist": 24,
+    "maxdist": 128,
+    "minheight": -64,
+    "maxheight": 48,
+    "maxthis": 12
+    }
+  },
+  {
+    "mob": "spider_overhaul:jungle_spider",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+    "minimum": 1,
+    "maximum": 2
+    },
+    "conditions": {
+    "dimension": "minecraft:overworld",
+    "norestrictions": true,
+    "mindist": 24,
+    "maxdist": 128,
+    "minheight": -64,
+    "maxheight": 24,
+    "maxthis": 8
+    }
+  },
+  {
+    "mob": "spider_overhaul:desert_spider",
+    "persecond": 0.10,
+    "attempts": 10,
+    "amount": {
+    "minimum": 1,
+    "maximum": 2
+    },
+    "conditions": {
+    "dimension": "minecraft:overworld",
+    "norestrictions": true,
+    "mindist": 24,
+    "maxdist": 128,
+    "minheight": -64,
+    "maxheight": 24,
+    "maxthis": 8
+    }
+  },
+  {
+    "mob": "naturalist:rattlesnake",
+    "persecond": 0.40,
+    "attempts": 20,
+    "amount": {
+    "minimum": 2,
+    "maximum": 3
+    },
+    "conditions": {
+    "dimension": "minecraft:overworld",
+    "norestrictions": true,
+    "mindist": 24,
+    "maxdist": 128,
+    "minheight": -64,
+    "maxheight": 0,
+    "maxthis": 16
+    }
+  },
+  {
+    "mob": "alexsmobs:komodo_dragon",
+    "persecond": 0.20,
+    "attempts": 20,
+    "amount": {
+    "minimum": 2,
+    "maximum": 3
+    },
+    "conditions": {
+    "dimension": "minecraft:overworld",
+    "norestrictions": true,
+    "mindist": 24,
+    "maxdist": 128,
+    "minheight": -64,
+    "maxheight": 0,
+    "maxthis": 16
+    }
+  },
+  {
+    "mob": "spider_overhaul:savanna_spider",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+    "minimum": 1,
+    "maximum": 2
+    },
+    "conditions": {
+    "dimension": "minecraft:overworld",
+    "norestrictions": true,
+    "mindist": 24,
+    "maxdist": 128,
+    "minheight": -64,
+    "maxheight": 0,
+    "maxthis": 8
+    }
+  },
+  {
+    "mob": "minecraft:cave_spider",
+    "persecond": 0.15,
+    "attempts": 20,
+    "amount": {
+    "minimum": 1,
+    "maximum": 2
+    },
+    "conditions": {
+    "dimension": "minecraft:overworld",
+    "norestrictions": true,
+    "mindist": 24,
+    "maxdist": 128,
+    "minheight": -64,
+    "maxheight": -16,
+    "maxthis": 20
+    }
+  },
+  {
+    "mob": "spider_overhaul:cavern_spider",
+    "persecond": 0.05,
+    "attempts": 10,
+    "amount": {
+    "minimum": 1,
+    "maximum": 1
+    },
+    "conditions": {
+    "dimension": "minecraft:overworld",
+    "norestrictions": true,
+    "mindist": 24,
+    "maxdist": 128,
+    "minheight": -64,
+    "maxheight": -16,
+    "maxthis": 4
+    }
+  },
+  {
+    "mob": "animalia:crocodile",
+    "persecond": 0.60,
+    "attempts": 20,
+    "amount": {
+    "minimum": 1,
+    "maximum": 1
+    },
+    "conditions": {
+    "dimension": "minecraft:overworld",
+    "norestrictions": true,
+    "mindist": 24,
+    "maxdist": 128,
+    "minheight": -64,
+    "maxheight": -24,
+    "maxthis": 1
+    }
+  },
+  {
+    "mob": "alexsmobs:centipede_head",
+    "persecond": 0.10,
+    "attempts": 10,
+    "amount": {
+    "minimum": 1,
+    "maximum": 1
+    },
+    "conditions": {
+    "dimension": "minecraft:overworld",
+    "norestrictions": true,
+    "mindist": 24,
+    "maxdist": 128,
+    "minheight": -64,
+    "maxheight": -32,
+    "maxthis": 1
+    }
+  }
+]

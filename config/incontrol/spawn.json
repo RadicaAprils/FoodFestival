@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "mob": [
+      "minecraft:phantom", "minecraft:bat", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:drowned", 
+      "youkaisfeasts:boar", "collectorsreap:platinum_bass", "collectorsreap:chieftain_crab",
+      "spider_overhaul:swamp_spider", "spider_overhaul:birch_spider", "spider_overhaul:taiga_spider", "spider_overhaul:ocean_spider", "spider_overhaul:sculk_spider",
+      "animalia:jaguar", "animalia:hippopotamus", "animalia:rhinoceros", "animalia:elephant", "animalia:moho"
+    ],
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "dimension": "minecraft:overworld",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:creeper",
+    "random": 0.75,
+    "result": "deny"
+  },
+  {
+    "mob": ["alexsmobs:comb_jelly", "alexsmobs:flutter", "alexsmobs:gazelle", "alexsmobs:rain_frog", "alexsmobs:kangaroo", "alexsmobs:lobster", "alexsmobs:warped_toad", "alexsmobs:bone_serpent", "alexsmobs:bone_serpent_part", "alexsmobs:centipede_head", "alexsmobs:centipede_body", "alexsmobs:centipede_tail", "alexsmobs:komodo_dragon"],
+    "result": "allow"
+  },
+  {
+    "mob": "animalia:crocodile",
+    "maxheight": 0,
+    "result": "deny"
+  },
+  {
+    "mob": "animalia:crocodile",
+    "maxheight": 48,
+    "result": "allow"
+  },
+  {
+    "mob": ["naturalist:catfish", "naturalist:duck", "naturalist:duck_egg", "naturalist:rattlesnake", "naturalist:zebra"],
+    "result": "allow"
+  },
+  {
+    "mob": "creatures_of_petrichor:shroomin",
+    "maxheight": 0,
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_of_petrichor:shroomin",
+    "maxheight": 48,
+    "result": "allow"
+  },
+  {
+    "mob": "species:wraptor",
+    "result": "allow"
+  },
+  {
+    "mod": [ "alexsmobs", "naturalist", "creatures_of_petrichor", "species", "windswept", "neapolitan" ],
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:silverfish", "creatures_of_petrichor:shroomin", "minecraft:spider", "minecraft:creeper", 
+      "spider_overhaul:ice_spider", "spider_overhaul:mushroom_spider", "spider_overhaul:jungle_spider", "spider_overhaul:desert_spider", 
+      "naturalist:rattlesnake", "alexsmobs:komodo_dragon", "minecraft:cave_spider", "spider_overhaul:cavern_spider", "alexsmobs:centipede_head"
+    ],
+    "dimension": "minecraft:overworld",
+    "minheight": 48,
+    "result": "deny"
+  }
+]
