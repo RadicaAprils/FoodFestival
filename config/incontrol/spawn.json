@@ -16,8 +16,13 @@
   },
   {
     "mob": "minecraft:creeper",
-    "random": 0.75,
+    "maxheight": -10,
     "result": "deny"
+  },
+  {
+    "mob": "minecraft:creeper",
+    "maxheight": 48,
+    "result": "allow"
   },
   {
     "mob": ["alexsmobs:comb_jelly", "alexsmobs:flutter", "alexsmobs:gazelle", "alexsmobs:rain_frog", "alexsmobs:kangaroo", "alexsmobs:lobster", "alexsmobs:warped_toad", "alexsmobs:bone_serpent", "alexsmobs:bone_serpent_part", "alexsmobs:centipede_head", "alexsmobs:centipede_body", "alexsmobs:centipede_tail", "alexsmobs:komodo_dragon"],
@@ -63,6 +68,11 @@
     ],
     "dimension": "minecraft:overworld",
     "minheight": 48,
+    "result": "deny"
+  },
+  {
+    "mob": "spider_overhaul:cavern_spider",
+    "random": 0.90,
     "result": "deny"
   }
 ]
